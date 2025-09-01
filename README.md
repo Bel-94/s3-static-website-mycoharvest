@@ -18,13 +18,13 @@ A production-ready static marketing site for **MycoHarvest** (organic mushrooms,
 
 ## 🏗️ Architecture
 
-```` ```mermaid
+```mermaid
 flowchart LR
   User((User)) -->|HTTP/HTTPS| CF[CloudFront CDN]
   CF --> S3[S3 Static Website Bucket]
 
   classDef dim fill:#f5f5f5,stroke:#bbb,color:#333;
-  class S3,CF dim;````
+  class S3,CF dim;```
 
 
 🧰 Tech & Services
