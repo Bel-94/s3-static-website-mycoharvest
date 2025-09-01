@@ -27,3 +27,12 @@ flowchart LR
   class S3,CF dim;
 
 
+🧰 Tech & Services
+
+Amazon S3 — static hosting
+
+Amazon CloudFront (optional) — HTTPS, caching, CDN
+
+Amazon Route 53 (optional) — custom domain
+
+GitHub Actions (optional) — CI/CD automat
