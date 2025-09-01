@@ -25,6 +25,3 @@ flowchart LR
 
   classDef dim fill:#f5f5f5,stroke:#bbb,color:#333;
   class S3,CF dim;
-
-💡 If you skip CloudFront, users hit the S3 Website Endpoint directly (HTTP only).
-To get HTTPS, place CloudFront in front of S3.
