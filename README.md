@@ -27,5 +27,5 @@ flowchart LR
   class S3,CF dim;
 
 
-💡 If you skip CloudFront, users hit the S3 Website Endpoint directly (HTTP only).
+NB: If you skip CloudFront, users hit the S3 Website Endpoint directly (HTTP only).
 To get HTTPS, place CloudFront in front of S3.
