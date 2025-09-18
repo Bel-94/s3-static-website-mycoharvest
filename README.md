@@ -36,8 +36,9 @@ The solution follows a simple AWS architecture:
 ├── /images           # Mushroom/product images
 └── README.md         # Documentation
 ```
+![My VS Code Project Structure](images/vscodeprojectstructure.jpg)
 
-## 🚀 Steps to Deploy Website on S3
+## Steps to Deploy Website on S3
 
 ### 1️⃣ Create an S3 Bucket
 - Go to **AWS Console → S3 → Create bucket**.  
