@@ -18,4 +18,4 @@ We will:
 
 The solution follows a simple AWS architecture:
 
-![Architecture Diagram](images\s3architecture.png) <!-- Add your architecture screenshot here -->
+![Architecture Diagram](images/s3architecture.png) <!-- Add your architecture screenshot here -->
