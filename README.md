@@ -124,3 +124,18 @@ The solution follows a simple AWS architecture:
 ![Contact Page](images/contactuspage.jpg)
 
 ---
+
+## Enhancements
+
+- Add **CloudFront** for CDN + HTTPS.  
+- Add **Route 53** for custom domain.  
+- Automate deployment using **AWS CLI** or **Terraform**.  
+
+---
+
+## Conclusion
+
+This project demonstrates how easy it is to deploy and serve static websites using **Amazon S3**.  
+It’s a cost-effective, highly available solution suitable for **portfolios, blogs, landing pages, and documentation sites**.  
+
+---
