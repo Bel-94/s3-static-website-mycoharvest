@@ -81,3 +81,27 @@ The solution follows a simple AWS architecture:
 ![Static website hosting settings](images/enablingstaticwebhosting.jpg)  
 
 ---
+
+### 4️⃣ Configure Bucket Policy (Public Read)
+- Go to **Permissions → Bucket policy** and add:  
+
+```json
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "PublicReadGetObject",
+      "Effect": "Allow",
+      "Principal": "*",
+      "Action": "s3:GetObject",
+      "Resource": "arn:aws:s3:::mycoharveststaticweb/*"
+    }
+  ]
+}
+```
+### Bucket policy editor
+
+![My bucket policy](images/createabucketpolicy.jpg)
+
+---
+
