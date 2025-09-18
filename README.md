@@ -105,3 +105,22 @@ The solution follows a simple AWS architecture:
 
 ---
 
+## Testing Pages
+
+- **Home Page** → Welcome message and featured products. 
+
+![Home Page](images/myrenderedhomepage.jpg)
+
+- **About Page** → Details about the farm/business.  
+
+![About Page](images/aboutuspage.jpg)
+
+- **Products Page** → Product images and list. 
+
+![Products Page](images/productspage.jpg)
+
+- **Contact Page** → Contact details / form.
+
+![Contact Page](images/contactuspage.jpg)
+
+---
