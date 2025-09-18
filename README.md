@@ -36,16 +36,22 @@ The solution follows a simple AWS architecture:
 ├── /images           # Mushroom/product images
 └── README.md         # Documentation
 ```
+### My VS Code Project Structure
 ![My VS Code Project Structure](images/vscodeprojectstructure.jpg)
+
+---
 
 ## Steps to Deploy Website on S3
 
 ### 1️⃣ Create an S3 Bucket
-- Go to **AWS Console → S3 → Create bucket**.  
+- Go to **AWS Console → S3 → Create bucket**. 
+![S3 Console](images/s3consolepage.jpg) 
+
 - Choose a unique bucket name (e.g., `mycoharveststaticweb`).  
+![Created S3 Bucket](images/createds3bucket.jpg)
+
 - Select region (e.g., `us-west-2`).  
 - Uncheck **Block all public access**.  
-
-📸 [Insert screenshot of bucket creation screen]  
+![Enable public access](images/disableblockpublicaccess.jpg)
 
 ---
