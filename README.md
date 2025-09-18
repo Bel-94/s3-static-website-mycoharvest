@@ -154,3 +154,13 @@ To make it easier to follow, here’s the recommended screenshot flow:
 8. About page.  
 9. Products page.  
 10. Contact page. 
+
+---
+
+## Author
+**Belinda Ntinyari** – [GitHub](https://github.com/Bel-94) | [LinkedIn](https://www.linkedin.com/in/belinda-ntinyari/)
+
+---
+
+## License
+This project is licensed under the **MIT License**.
