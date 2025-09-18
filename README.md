@@ -37,6 +37,7 @@ The solution follows a simple AWS architecture:
 └── README.md         # Documentation
 ```
 ### My VS Code Project Structure
+
 ![My VS Code Project Structure](images/vscodeprojectstructure.jpg)
 
 ---
@@ -45,19 +46,38 @@ The solution follows a simple AWS architecture:
 
 ### 1️⃣ Create an S3 Bucket
 - Go to **AWS Console → S3 → Create bucket**. 
+
 ![S3 Console](images/s3consolepage.jpg) 
 
 - Choose a unique bucket name (e.g., `mycoharveststaticweb`).  
+
 ![Created S3 Bucket](images/createds3bucket.jpg)
 
 - Select region (e.g., `us-west-2`).  
 - Uncheck **Block all public access**.  
+
 ![Enable public access](images/disabledpublicaccess.jpg)
 
 ---
 
 ### 2️⃣ Upload Website Files
-- Open your bucket → **Upload** → add `index.html`, other pages, CSS, and images.  
+- Open your bucket → **Upload** → add `index.html`, other pages, CSS, and images. 
+
 ![Uploading files & folders](images/uploadingfiles&folders.jpg)
+
+---
+
+### 3️⃣ Enable Static Website Hosting
+- Go to **Properties → Static website hosting**.  
+- Select **Enable**.  
+- Choose **Host a static website**.  
+
+![Where to enable static web hosting](images/wheretoenablestaticwebhosting.jpg)
+
+- Enter:  
+  - **Index document:** `index.html`  
+  - **Error document:** `error.html` (optional) 
+
+![Static website hosting settings](images/enablingstaticwebhosting.jpg)  
 
 ---
