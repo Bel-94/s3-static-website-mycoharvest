@@ -139,3 +139,18 @@ This project demonstrates how easy it is to deploy and serve static websites usi
 It’s a cost-effective, highly available solution suitable for **portfolios, blogs, landing pages, and documentation sites**.  
 
 ---
+
+## Screenshots Index  <!--NB: I added this section just for fun -->
+
+To make it easier to follow, here’s the recommended screenshot flow:
+
+1. Project structure in VS Code.  
+2. Bucket creation page.  
+3. Files uploaded into S3 bucket.  
+4. Static website hosting settings.  
+5. Bucket policy editor.  
+6. Website endpoint URL in bucket properties.  
+7. Live homepage in browser.  
+8. About page.  
+9. Products page.  
+10. Contact page. 
