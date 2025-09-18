@@ -52,6 +52,12 @@ The solution follows a simple AWS architecture:
 
 - Select region (e.g., `us-west-2`).  
 - Uncheck **Block all public access**.  
-![Enable public access](images/disableblockpublicaccess.jpg)
+![Enable public access](images/disabledpublicaccess.jpg)
+
+---
+
+### 2️⃣ Upload Website Files
+- Open your bucket → **Upload** → add `index.html`, other pages, CSS, and images.  
+![Uploading files & folders](images/uploadingfiles&folders.jpg)
 
 ---
